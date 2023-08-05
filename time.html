@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <link rel="stylesheet" href="time.css"/>
+
+</head>
+<body>
+    <div class="navbar">
+        <li class="list"><a href="/index.html">BMI Calculator</a></li>
+        <li class="list"><a href="/time.html">StopWatch</a></li>
+    </div>
+    <div class="stopwatch">
+        <h1>StopWatch</h1>
+        <div id="displayTime">
+          00 : 00 : 00
+        </div>
+        <div class="category">
+            <span>Hr</span>
+            <span>Min</span>
+            <span>Sec</span>
+        </div>
+        <div class="buttons">
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="pause()">Pause</button>
+    </div>
+    </div>
+    <script src="time.js"></script>
+</body>
+</html>
